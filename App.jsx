@@ -1,15 +1,18 @@
 
-import { View, Text,Button } from 'react-native'
-import React from 'react';
-import First from './src/components/First';
+//import { View, Text,Button } from 'react-native' // multiple cheezo ki import kar raha ha 
+import React from 'react'; // sirf ek module import horaha ha
+import { View } from 'react-native'
+//import First from './src/components/First';
+import JSX from './src/components/JSX';
 
 const App = () => {
   return (
-    <View> // view ma wrap kar la ga 
-      <Text style ={{ fontSize : 50 }}>RizwanIlyasButt</Text>
+      <View> // view ma wrap kar la ga 
+     { /* <Text style ={{ fontSize : 50 }}>RizwanIlyasButt</Text>
       <Text style ={{ fontSize : 50 }}>Devops</Text>
       <Button title = "Press Here"/>
-      <First />
+      <First /> */}
+      <JSX />
     </View>
   )
 }
