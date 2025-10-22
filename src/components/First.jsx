@@ -2,7 +2,7 @@ import { View, Text,Button } from 'react-native'
 import React from 'react'
 
 
-const Test = () => {
+const First = () => {
   return (
     <View> // view ma wrap kar la ga 
       <Text style ={{ fontSize : 50 }}>RLTSQUARE</Text>
@@ -10,4 +10,4 @@ const Test = () => {
     </View>
   )
 }
-export default Test
+export default First
