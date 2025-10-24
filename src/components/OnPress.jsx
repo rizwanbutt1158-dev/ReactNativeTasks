@@ -12,7 +12,7 @@ const getName = () =>{
 };
   return (
     <View>
-      <Text style ={{ fontSize : 50 }}>OnPress</Text>
+      <Text style ={{ fontSize : 50 }}>Softrox</Text>
     {/* <Button title  = "Press Here" onPress={() => Alert.alert('Button Pressed!')}/>*/}
     <Button title  = "Press Here" onPress={getName}/>
     </View>
