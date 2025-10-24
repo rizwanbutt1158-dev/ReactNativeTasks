@@ -23,4 +23,4 @@ export default UseStateHook;
 //special function detta ha ka ap react ka features use karsaka
 //apka component ko recheck karta rerender karta ha 
 //arary desstructure js ka concept
-//variable or use state hook, component ma statehook ko use nahi kar sakta variable ko kar sakta ha
+//variable or use state hook, stathook ko component ka bahir use nahi kar skata variable ko kar sakta ha wo global variable honga apka 
