@@ -43,3 +43,4 @@ const InputText = () => {
 
 // Component export kar rahe hain
 export default InputText;
+ 

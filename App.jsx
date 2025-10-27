@@ -7,12 +7,13 @@ import { View } from 'react-native'
 //import OnPress from './src/components/OnPress';
 //import UseStateHook from './src/components/UseStateHook';
 //import Props from './src/components/Props';
-import InputText from './src/components/InputText';
-
+//import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
 
 const App = () => {
   return (
-      <View> 
+     
+        <View style={{ flex: 1 }}>
      { /* <Text style ={{ fontSize : 50 }}>RizwanIlyasButt</Text> 
       <Text style ={{ fontSize : 50 }}>Devops</Text> {} bracket ko use karka , react native ka component ko use karka ek hi line ma likh sakta ha jsx
       <Button title = "Press Here"/>
@@ -20,8 +21,9 @@ const App = () => {
       <JSX /> 
       <OnPress /> 
       <UseStateHook /> 
-      <Props />*/}
-      <InputText />
+      <Props />s
+      <InputText /> */}
+      <Styling />
     </View>
   )
 }
