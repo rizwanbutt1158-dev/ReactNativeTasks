@@ -5,7 +5,9 @@ import { View } from 'react-native'
 //import First from './src/components/First';
 //import JSX from './src/components/JSX';
 //import OnPress from './src/components/OnPress';
-import UseStateHook from './src/components/UseStateHook';
+//import UseStateHook from './src/components/UseStateHook';
+import Props from './src/components/Props';
+
 
 
 const App = () => {
@@ -16,8 +18,9 @@ const App = () => {
       <Button title = "Press Here"/>
       <First /> 
       <JSX /> 
-      <OnPress /> */}
-      <UseStateHook />
+      <OnPress /> 
+      <UseStateHook /> */}
+      <Props />
     </View>
   )
 }
