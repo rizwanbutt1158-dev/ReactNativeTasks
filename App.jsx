@@ -6,21 +6,22 @@ import { View } from 'react-native'
 //import JSX from './src/components/JSX';
 //import OnPress from './src/components/OnPress';
 //import UseStateHook from './src/components/UseStateHook';
-import Props from './src/components/Props';
-
+//import Props from './src/components/Props';
+import InputText from './src/components/InputText';
 
 
 const App = () => {
   return (
-      <View> // view ma wrap kar la ga 
+      <View> 
      { /* <Text style ={{ fontSize : 50 }}>RizwanIlyasButt</Text> 
       <Text style ={{ fontSize : 50 }}>Devops</Text> {} bracket ko use karka , react native ka component ko use karka ek hi line ma likh sakta ha jsx
       <Button title = "Press Here"/>
       <First /> 
       <JSX /> 
       <OnPress /> 
-      <UseStateHook /> */}
-      <Props />
+      <UseStateHook /> 
+      <Props />*/}
+      <InputText />
     </View>
   )
 }
