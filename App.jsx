@@ -32,7 +32,7 @@ const App = () => {
       <FlatListScreen />
       <SectionListScreen />
       <FaceLogin /> */}
-      <ContactListScreen />
+      <ContactListScreen /> 
     </View>
   )
 }
