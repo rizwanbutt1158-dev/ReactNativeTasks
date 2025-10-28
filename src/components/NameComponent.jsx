@@ -9,8 +9,13 @@ import AgeComponent from './AgeComponent';
 
 // NameComponent class component
 class NameComponent extends Component {
-  constructor(props) {
-    super(props); 
+  constructor(props) { // pehla concst chala ga-state apna cinstructor ka andar banai ha, apka componenet ka 
+  //  render hona sa pehla constructor call honga 
+  //function idependent hotta ha kisi class,object sa link nhi hotta
+  //method wo fuctions hotta ha jo ap class ka andar bananta ha  wo kisi class sa kisis this key word sa link hota ha
+  //directly unko unka nam sa call nahu karsakta method function ko
+
+    super(props); // super ka method hum is lia use karta ha jo componenet ka constructor ha wo call hpjae
     // super(props) call karna zaruri hai taake this.props accessible ho
 
     // component ka initial state

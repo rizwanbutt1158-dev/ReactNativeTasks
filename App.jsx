@@ -13,7 +13,8 @@ import { View } from 'react-native'
 //import SectionListScreen from './src/components/SectionListScreen';
 //import FaceLogin from './src/components/FaceLogin';
 //import ContactListScreen from './src/screens/Contact/ContactListScreen';
-import NameComponent from './src/components/NameComponent';
+//import NameComponent from './src/components/NameComponent';
+import UseEffectHook from './src/components/UseEffectHook'
 
 const App = () => {
   return (
@@ -32,8 +33,9 @@ const App = () => {
       <FlatListScreen />
       <SectionListScreen />
       <FaceLogin /> 
-      <ContactListScreen /> */}
-      <NameComponent />
+      <ContactListScreen />
+      <NameComponent />  */}
+      <UseEffectHook />
     </View>
   )
 }
