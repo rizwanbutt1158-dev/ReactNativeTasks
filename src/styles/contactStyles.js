@@ -2,16 +2,21 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#ffffffff',
     padding: 10,
+    backgroundColor: '#f9f9f9',
   },
-  itemContainer: {
-    backgroundColor: '#1d4decff',
+  gridContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  card: {
+    backgroundColor: '#fff',
+    width: '48%', // 👈 two columns
     borderRadius: 10,
     padding: 15,
-    marginVertical: 8,
-    shadowColor: '#2b72dcff',
+    marginBottom: 10,
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 3,
@@ -20,11 +25,11 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffffff',
+    color: '#333',
   },
   phone: {
     fontSize: 15,
-    color: '#ffffffff',
+    color: '#555',
     marginTop: 4,
   },
 });

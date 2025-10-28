@@ -12,8 +12,8 @@ import { View } from 'react-native'
 //import FlatListScreen from './src/components/FlatListScreen';
 //import SectionListScreen from './src/components/SectionListScreen';
 //import FaceLogin from './src/components/FaceLogin';
-import ContactListScreen from './src/screens/Contact/ContactListScreen';
-
+//import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import NameComponent from './src/components/NameComponent';
 
 const App = () => {
   return (
@@ -31,8 +31,9 @@ const App = () => {
       <Styling />
       <FlatListScreen />
       <SectionListScreen />
-      <FaceLogin /> */}
-      <ContactListScreen /> 
+      <FaceLogin /> 
+      <ContactListScreen /> */}
+      <NameComponent />
     </View>
   )
 }
