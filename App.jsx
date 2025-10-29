@@ -16,7 +16,8 @@ import { View } from 'react-native'
 //import NameComponent from './src/components/NameComponent';
 //import UseEffectHook from './src/components/UseEffectHook'
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdaingPhase';
-import UseEffectHookUnmount from './src/components/UseEffectHookUnmount';
+//import UseEffectHookUnmount from './src/components/UseEffectHookUnmount';
+import HideShowToggle from './src/components/HideShowToggle';
 const App = () => {
   return (
      <View style ={{ flex:1}}>
@@ -37,8 +38,9 @@ const App = () => {
       <ContactListScreen />
       <NameComponent />  
       <UseEffectHook />
-      <UseEffectHookUpdatingPhase />  */}
-      <UseEffectHookUnmount />
+      <UseEffectHookUpdatingPhase /> 
+      <UseEffectHookUnmount />  */}
+      <HideShowToggle />
     </View>
   )
 }
