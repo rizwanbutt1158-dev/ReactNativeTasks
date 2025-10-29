@@ -19,7 +19,11 @@ import { View } from 'react-native'
 //import UseEffectHookUnmount from './src/components/UseEffectHookUnmount';
 //import HideShowToggle from './src/components/HideShowToggle';
 //import  LightDarkMode from './src/components/LightDarkMode';
-import CalendarToggle from './src/components/CalendarToggle';
+//import CalendarToggle from './src/components/CalendarToggle';
+import  StyleWithButon from './src/components/StyleWithButon';
+
+
+
 const App = () => {
   return (
      <View style ={{ flex:1}}>
@@ -43,8 +47,9 @@ const App = () => {
       <UseEffectHookUpdatingPhase /> 
       <UseEffectHookUnmount /> 
       <HideShowToggle /> 
-     < LightDarkMode /> */}
-     <CalendarToggle />
+     < LightDarkMode />
+     <CalendarToggle />  */}
+     <StyleWithButon />
     </View>
   )
 }
