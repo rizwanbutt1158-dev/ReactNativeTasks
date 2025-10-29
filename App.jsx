@@ -17,7 +17,9 @@ import { View } from 'react-native'
 //import UseEffectHook from './src/components/UseEffectHook'
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdaingPhase';
 //import UseEffectHookUnmount from './src/components/UseEffectHookUnmount';
-import HideShowToggle from './src/components/HideShowToggle';
+//import HideShowToggle from './src/components/HideShowToggle';
+//import  LightDarkMode from './src/components/LightDarkMode';
+import CalendarToggle from './src/components/CalendarToggle';
 const App = () => {
   return (
      <View style ={{ flex:1}}>
@@ -39,8 +41,10 @@ const App = () => {
       <NameComponent />  
       <UseEffectHook />
       <UseEffectHookUpdatingPhase /> 
-      <UseEffectHookUnmount />  */}
-      <HideShowToggle />
+      <UseEffectHookUnmount /> 
+      <HideShowToggle /> 
+     < LightDarkMode /> */}
+     <CalendarToggle />
     </View>
   )
 }
