@@ -14,8 +14,9 @@ import { View } from 'react-native'
 //import FaceLogin from './src/components/FaceLogin';
 //import ContactListScreen from './src/screens/Contact/ContactListScreen';
 //import NameComponent from './src/components/NameComponent';
-import UseEffectHook from './src/components/UseEffectHook'
-
+//import UseEffectHook from './src/components/UseEffectHook'
+//import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdaingPhase';
+import UseEffectHookUnmount from './src/components/UseEffectHookUnmount';
 const App = () => {
   return (
      <View style ={{ flex:1}}>
@@ -34,8 +35,10 @@ const App = () => {
       <SectionListScreen />
       <FaceLogin /> 
       <ContactListScreen />
-      <NameComponent />  */}
+      <NameComponent />  
       <UseEffectHook />
+      <UseEffectHookUpdatingPhase />  */}
+      <UseEffectHookUnmount />
     </View>
   )
 }
