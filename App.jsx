@@ -21,7 +21,8 @@ import { View } from 'react-native'
 //import  LightDarkMode from './src/components/LightDarkMode';
 //import CalendarToggle from './src/components/CalendarToggle';
 //import  StyleWithButon from './src/components/StyleWithButon';
-import Loader from './src/components/Loader';
+//import Loader from './src/components/Loader';
+import PressableCmponent from './src/components/PressableCmponent';
 
 
 const App = () => {
@@ -49,8 +50,9 @@ const App = () => {
       <HideShowToggle /> 
      < LightDarkMode />
      <CalendarToggle /> 
-     <StyleWithButon />  */}
-     <Loader />
+     <StyleWithButon /> 
+     <Loader />  */}
+     <PressableCmponent />
     </View>
   )
 }

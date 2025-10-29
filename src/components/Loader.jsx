@@ -16,7 +16,7 @@ const Loader = () => {
     setTimeout(() => {
       setLoading(false);
       setShowMessage(true);
-    }, 3000);
+    }, 1000);
   };
 
   // Function: jab "Back" button click ho
