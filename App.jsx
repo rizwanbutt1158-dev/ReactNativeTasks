@@ -1,4 +1,4 @@
-import 'react-native-gesture-handler';
+//import 'react-native-gesture-handler';
 //import { View, Text,Button } from 'react-native' // multiple cheezo ki import kar raha ha 
 import React from 'react'; // sirf ek module import horaha ha
 import { View } from 'react-native'
@@ -25,23 +25,23 @@ import { View } from 'react-native'
 //import PressableCmponent from './src/components/PressableCmponent';
 //import StatusBarExample from './src/components/StatusBarExample';
 //import UseRefHook from './src/components/UseRefHook';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import AuthScreen from './src/screens/Contact/AuthScreen';
-import HomeScreen from './src/screens/Contact/HomeScreen';
-
-const Stack = createStackNavigator();
+//import { NavigationContainer } from '@react-navigation/native';
+//import { createStackNavigator } from '@react-navigation/stack';
+//import AuthScreen from './src/screens/Contact/AuthScreen';
+//import HomeScreen from './src/screens/Contact/HomeScreen';
+import AlertTestScreen from './src/screens/Contact/AlertTestScreen';
+//const Stack = createStackNavigator();
 
 const App = () => {
   return (
      <View style ={{ flex:1}}>
-       <NavigationContainer>
+      { /*   <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Auth" component={AuthScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
-          { /* <View style={{ flex: 1 }}>
+         <View style={{ flex: 1 }}>
    <Text style ={{ fontSize : 50 }}>RizwanIlyasButt</Text> 
       <Text style ={{ fontSize : 50 }}>Devops</Text> {} bracket ko use karka , react native ka component ko use karka ek hi line ma likh sakta ha jsx
       <Button title = "Press Here"/>
@@ -68,6 +68,7 @@ const App = () => {
      <PressableCmponent />
      <StatusBarExample /> 
      <UseRefHook /> */}
+     <AlertTestScreen />
     </View>
   )
 }
