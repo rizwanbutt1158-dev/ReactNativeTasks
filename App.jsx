@@ -29,7 +29,8 @@ import { View } from 'react-native'
 //import { createStackNavigator } from '@react-navigation/stack';
 //import AuthScreen from './src/screens/Contact/AuthScreen';
 //import HomeScreen from './src/screens/Contact/HomeScreen';
-import AlertTestScreen from './src/screens/Contact/AlertTestScreen';
+//import AlertTestScreen from './src/screens/Contact/AlertTestScreen';
+import GET_API from './src/components/GET_API';
 //const Stack = createStackNavigator();
 
 const App = () => {
@@ -67,8 +68,9 @@ const App = () => {
      <Loader />  
      <PressableCmponent />
      <StatusBarExample /> 
-     <UseRefHook /> */}
-     <AlertTestScreen />
+     <UseRefHook /> 
+     <AlertTestScreen /> */}
+     <GET_API />
     </View>
   )
 }
