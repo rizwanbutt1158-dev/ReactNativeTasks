@@ -23,8 +23,8 @@ import { View } from 'react-native'
 //import  StyleWithButon from './src/components/StyleWithButon';
 //import Loader from './src/components/Loader';
 //import PressableCmponent from './src/components/PressableCmponent';
-import StatusBarExample from './src/components/StatusBarExample';
-
+//import StatusBarExample from './src/components/StatusBarExample';
+import UseRefHook from './src/components/UseRefHook';
 const App = () => {
   return (
      <View style ={{ flex:1}}>
@@ -52,8 +52,9 @@ const App = () => {
      <CalendarToggle /> 
      <StyleWithButon /> 
      <Loader />  
-     <PressableCmponent />*/}
-     <StatusBarExample />
+     <PressableCmponent />
+     <StatusBarExample /> */}
+     <UseRefHook />
     </View>
   )
 }
