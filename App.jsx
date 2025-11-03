@@ -30,7 +30,10 @@ import { View } from 'react-native'
 //import AuthScreen from './src/screens/Contact/AuthScreen';
 //import HomeScreen from './src/screens/Contact/HomeScreen';
 //import AlertTestScreen from './src/screens/Contact/AlertTestScreen';
-import GET_API from './src/components/GET_API';
+//import GET_API from './src/components/GET_API';
+//import POST_API from './src/components/POST_API';
+//import PUT_API from './src/components/PUT_API';
+import PATCH_API from './src/components/PATCH_API';
 //const Stack = createStackNavigator();
 
 const App = () => {
@@ -69,8 +72,11 @@ const App = () => {
      <PressableCmponent />
      <StatusBarExample /> 
      <UseRefHook /> 
-     <AlertTestScreen /> */}
-     <GET_API />
+     <AlertTestScreen /> 
+     <GET_API /> 
+     <POST_API /> 
+     <PUT_API /> */}
+     <PATCH_API />
     </View>
   )
 }
