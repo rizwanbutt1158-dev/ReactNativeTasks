@@ -12,7 +12,7 @@ import { View } from 'react-native'
 //import FlatListScreen from './src/components/FlatListScreen';
 //import SectionListScreen from './src/components/SectionListScreen';
 //import FaceLogin from './src/components/FaceLogin';
-//import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import ContactListScreen from './src/screens/Contact/ContactListScreen';
 //import NameComponent from './src/components/NameComponent';
 //import UseEffectHook from './src/components/UseEffectHook'
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdaingPhase';
@@ -33,7 +33,7 @@ import { View } from 'react-native'
 //import GET_API from './src/components/GET_API';
 //import POST_API from './src/components/POST_API';
 //import PUT_API from './src/components/PUT_API';
-import PATCH_API from './src/components/PATCH_API';
+//import PATCH_API from './src/components/PATCH_API';
 //const Stack = createStackNavigator();
 
 const App = () => {
@@ -59,7 +59,6 @@ const App = () => {
       <FlatListScreen />
       <SectionListScreen />
       <FaceLogin /> 
-      <ContactListScreen />
       <NameComponent />  
       <UseEffectHook />
       <UseEffectHookUpdatingPhase /> 
@@ -75,8 +74,10 @@ const App = () => {
      <AlertTestScreen /> 
      <GET_API /> 
      <POST_API /> 
-     <PUT_API /> */}
-     <PATCH_API />
+     <PUT_API /> 
+     <PATCH_API /> */}
+     <ContactListScreen />
+
     </View>
   )
 }
