@@ -12,7 +12,7 @@ import { View } from 'react-native'
 //import FlatListScreen from './src/components/FlatListScreen';
 //import SectionListScreen from './src/components/SectionListScreen';
 //import FaceLogin from './src/components/FaceLogin';
-import ContactListScreen from './src/screens/Contact/ContactListScreen';
+//import ContactListScreen from './src/screens/Contact/ContactListScreen';
 //import NameComponent from './src/components/NameComponent';
 //import UseEffectHook from './src/components/UseEffectHook'
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdaingPhase';
@@ -34,6 +34,7 @@ import ContactListScreen from './src/screens/Contact/ContactListScreen';
 //import POST_API from './src/components/POST_API';
 //import PUT_API from './src/components/PUT_API';
 //import PATCH_API from './src/components/PATCH_API';
+import DELETE_API from './src/components/DELETE_API';
 //const Stack = createStackNavigator();
 
 const App = () => {
@@ -75,8 +76,9 @@ const App = () => {
      <GET_API /> 
      <POST_API /> 
      <PUT_API /> 
-     <PATCH_API /> */}
-     <ContactListScreen />
+     <PATCH_API /> 
+     <ContactListScreen /> */}
+     <DELETE_API />
 
     </View>
   )
